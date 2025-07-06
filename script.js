@@ -319,7 +319,7 @@ let songs = [
         artist: "rasul",
         album: "AM",
         albumArtUrl: "",
-        audioSrc: "audio/",
+        audioSrc: "audio/Golden Brown.mp3",
         videoBgSrc: "videos/",
         lyrics: [
             { time: 1000, text: "I wanna be your vacuum cleaner" },
