@@ -318,7 +318,7 @@ let songs = [
         title: "Golden Brown",
         artist: "rasul",
         album: "AM",
-        albumArtUrl: "",
+        albumArtUrl: "IMG/Golden.jpg",
         audioSrc: "audio/Golden Brown.mp3",
         videoBgSrc: "videos/Golden.mp4",
         lyrics: [
