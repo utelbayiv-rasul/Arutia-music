@@ -1,4 +1,4 @@
-// DOM Elements
+uy// DOM Elements
 const homePage = document.getElementById('homePage');
 const songDetailPage = document.getElementById('songDetailPage');
 const playerPage = document.getElementById('playerPage');
@@ -742,17 +742,15 @@ function init() {
 }
 
 // --- Audio va video sinxronlash ---
-audioPlayer.addEventListener('play', () => {
-    backgroundVideo.currentTime = audioPlayer.currentTime;
-    backgroundVideo.play().catch(e => console.error("Video play error:", e));
-});
+// audioPlayer.addEventListener('play', () => {
+//    backgroundVideo.currentTime = audioPlayer.currentTime;
+//    backgroundVideo.play().catch(e => console.error("Video play error:", e));
+//});
 
-audioPlayer.addEventListener('pause', () => {
-    backgroundVideo.pause();
-});
-
-audioPlayer.addEventListener('seeked', () => {
-    backgroundVideo.currentTime = audioPlayer.currentTime;
-});
+//audioPlayer.addEventListener('pause', () => {
+//    backgroundVideo.pause();
+//});audioPlayer.addEventListener('seeked', () => {
+//    backgroundVideo.currentTime = audioPlayer.currentTime;
+//});
 
 init();
