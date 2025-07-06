@@ -1,4 +1,4 @@
-uy// DOM Elements
+// DOM Elements
 const homePage = document.getElementById('homePage');
 const songDetailPage = document.getElementById('songDetailPage');
 const playerPage = document.getElementById('playerPage');
