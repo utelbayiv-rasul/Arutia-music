@@ -314,7 +314,7 @@ let songs = [
             { time: 1000, text: "I just wanna be yours (Wanna be yours)" }
         ]
     },
-    id: 7,
+    { id: 7,
         title: "Golden Brown",
         artist: "rasul",
         album: "AM",
