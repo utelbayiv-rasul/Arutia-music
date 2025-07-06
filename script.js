@@ -722,4 +722,18 @@ function init() {
     console.log("Initialization complete."); // Log selesai inisialisasi
 }
 
+// --- Audio va video sinxronlash ---
+audioPlayer.addEventListener('play', () => {
+    backgroundVideo.currentTime = audioPlayer.currentTime;
+    backgroundVideo.play().catch(e => console.error("Video play error:", e));
+});
+
+audioPlayer.addEventListener('pause', () => {
+    backgroundVideo.pause();
+});
+
+audioPlayer.addEventListener('seeked', () => {
+    backgroundVideo.currentTime = audioPlayer.currentTime;
+});
+
 init();
