@@ -314,7 +314,26 @@ let songs = [
             { time: 1000, text: "I just wanna be yours (Wanna be yours)" }
         ]
     },
-
+    id: 6,
+        title: "Golden Brown",
+        artist: "rasul",
+        album: "AM",
+        albumArtUrl: "",
+        audioSrc: "audio/",
+        videoBgSrc: "videos/",
+        lyrics: [
+            { time: 1000, text: "I wanna be your vacuum cleaner" },
+            { time: 1000, text: "Breathing in your dust" },
+            { time: 1000, text: "I wanna be your Ford Cortina" },
+            { time: 1000, text: "I will never rust" },
+            { time: 1000, text: "If you like your coffee hot" },
+            { time: 1000, text: "Let me be your coffee pot" },
+            { time: 1000, text: "You call the shots, babe" },
+            { time: 1000, text: "I just wanna be yours" },
+            
+        ]
+    },
+    
 ];
 let currentSongIndex = 0;
 let isPlaying = false;
