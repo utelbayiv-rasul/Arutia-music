@@ -345,6 +345,19 @@ let songs = [
     { time: 63.16, text: "" } // optional, oxiri bo‘sh qolgan qator
   ]
       },
+        {
+  id: 8,
+  title: "?????",
+  artist: "?????",
+  album: "AM",
+  albumArtUrl: "IMG/",
+  audioSrc: "audio/ting.mp3",
+  videoBgSrc: "videos/ting.mp4",
+  lyrics: [
+    { time: 0.0, text: "?????" },
+    { time: 1.42, text: "" }, // optional, oxiri bo‘sh qolgan qator
+  ]
+      },
     
 ];
 let currentSongIndex = 0;
