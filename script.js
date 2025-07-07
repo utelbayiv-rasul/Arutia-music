@@ -314,25 +314,37 @@ let songs = [
             { time: 1000, text: "I just wanna be yours (Wanna be yours)" }
         ]
     },
-    { id: 7,
-        title: "Golden Brown",
-        artist: "rasul",
-        album: "AM",
-        albumArtUrl: "IMG/Golden.jpg",
-        audioSrc: "audio/Golden Brown.mp3",
-        videoBgSrc: "videos/Golden.mp4",
-        lyrics: [
-            { time: 1000, text: "I wanna be your vacuum cleaner" },
-            { time: 1000, text: "Breathing in your dust" },
-            { time: 1000, text: "I wanna be your Ford Cortina" },
-            { time: 1000, text: "I will never rust" },
-            { time: 1000, text: "If you like your coffee hot" },
-            { time: 1000, text: "Let me be your coffee pot" },
-            { time: 1000, text: "You call the shots, babe" },
-            { time: 1000, text: "I just wanna be yours" },
-            
-        ]
-    },
+    {
+  id: 7,
+  title: "Golden Brown",
+  artist: "The Stranglers",
+  album: "AM",
+  albumArtUrl: "IMG/Golden.jpg",
+  audioSrc: "audio/Golden Brown.mp3",
+  videoBgSrc: "videos/Golden.mp4",
+  lyrics: [
+    { time: 0.0, text: "Golden brown texture like sun" },
+    { time: 3.68, text: "Lays me down with my mind she runs" },
+    { time: 6.92, text: "Throughout the night" },
+    { time: 10.34, text: "No need to fight" },
+    { time: 13.66, text: "Never a frown with golden brown" },
+    { time: 16.7, text: "Every time just like the last" },
+    { time: 20.1, text: "On her ship tied to the mast" },
+    { time: 23.4, text: "To distant lands" },
+    { time: 26.74, text: "Takes both my hands" },
+    { time: 30.06, text: "Never a frown with golden brown" },
+    { time: 33.36, text: "Golden brown finer temptress" },
+    { time: 36.66, text: "Through the ages she's heading West" },
+    { time: 39.98, text: "From far away" },
+    { time: 43.3, text: "Stays for a day" },
+    { time: 46.6, text: "Never a frown with golden brown" },
+    { time: 49.92, text: "Never a frown" },
+    { time: 53.22, text: "With golden brown" },
+    { time: 56.52, text: "Never a frown" },
+    { time: 59.84, text: "With golden brown" },
+    { time: 63.16, text: "" } // optional, oxiri bo‘sh qolgan qator
+  ]
+      },
     
 ];
 let currentSongIndex = 0;
